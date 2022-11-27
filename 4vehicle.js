@@ -21,7 +21,7 @@ Vehicle.prototype.behaviors = function() {
 }
 
 Vehicle.prototype.applyForce = function(f) {
-    this.acc.add(f);
+    this.acc.add(f); 
 }
 
 Vehicle.prototype.update = function() {
